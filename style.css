@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(img/body.jpg);
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/arr.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+    
+}
+.container2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/soolk.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+    
+}
+.navbar {
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 140px;
+    cursor: pointer;
+    
+}
+.logo:hover{
+    width: 160px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+.navbar ul li a:hover{
+        color: #1fbbe0 ;
+    font-size: 20px;
+    font-family: cursive;
+    
+}
+
+.art{
+        opacity: 70%;
+        width: 340px;
+        height: 400px;
+    
+}
+.art:hover{
+    opacity: 100%;
+}
+.content {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.left-col {
+    margin-left: 8%;
+   
+     float: left;
+}
+.right-col{
+    
+ 
+    
+    margin-left: 8%;
+    margin-bottom: 8%;
+     margin-top: 100px;
+    margin-right: 15%;
+    float: right;
+}
+
+
+
+.right-col h1{
+    
+   
+    font-size: 30px;
+    color: white;
+    line-height: 50px;
+}
+.right-col h5{
+    
+ 
+    font-size: 15px;
+    color: #522796 ;
+    line-height: 20px;
+}
+.listen{
+    display: flex;
+}
+.right-col p{
+  
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    margin-right: 25px;
+    line-height: 60px;
+}
+#icon{
+    width: 60px;
+    cursor: pointer;
+    
+}
+
+.liste {
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		width: 90%;
+		height: auto;
+		box-shadow: 0 10px 20px black;
+		color:white;
+		font-family: sans-serif;
+		transition: all .5s ease;
+    margin-top: 80px;
+	}
+.video {
+  width: 100px;
+}
+		.canvas {
+            
+			background: transparent;
+			margin: 0;
+			padding: 0;
+			color:white;
+			transition: all .5s ease; 
+		} 
+		.name {
+			background: #1c042a;
+			width: 100px;
+			height: 50px;
+			padding: 10px;
+			font-weight: bolder;
+			font-family: sans-serif;
+            line-height: 20px;
+		}
+		.category {
+			line-height: .01;
+			color: #3a3a3a;
+			font-weight: bold;
+            line-height: 20px;
+		}
+		.range {
+		   line-height: .01;
+			color: white;
+			font-weight: bold;
+            line-height: 20px;
+		}
+		p {
+			display: inline;
+			padding: none;
+		}
+		.list {
+           background: #2b013e;
+           overflow: auto;
+           margin: 0;
+           padding: 0;
+           width: 100%;
+           height: 210px;
+           align-items: middle;
+		}
+		 
+		a {
+			color: white;
+			font-family: sans-serif;
+			text-decoration: none;
+		}
+.img2{
+			vertical-align: middle;
+			transition: .5s ease;
+			filter: brightness(80%);
+		}
+.img2:hover {
+			width:110px;
+			box-shadow: 0 0 20px black;
+			filter: brightness(120%);
+		}
+		span {
+			background: url(title.ico);
+			width: 100px;
+			height: 100px;
+		}
+
+.video-title {
+  display: block;
+  padding: 10px;
+}
+.video-title:hover {
+  background: grey;
+}
+
+
+/*---------------------*/
+
+.col{
+    
+   /* margin-right: 20%;
+   
+    display: flex;
+    align-items: center;*/
+    
+    margin-left: 4%;
+    margin-bottom: 8%;
+     margin-top: 100px;
+    margin-right: 20%;
+    float: right;
+}
+
+
+
+.col h1{
+    
+   
+    font-size: 40px;
+    color: white;
+    line-height: 50px;
+}
+.col h5{
+    
+ 
+    font-size: 20px;
+   color: #00bac5 ;
+    line-height: 20px;
+}
+.col h5:hover{
+    
+ 
+    font-size: 24px;
+     color: #fe20a3 ;
+    
+    line-height: 25px;
+}
+.lis{
+    display: flex;
+}
+.col p{
+  
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    margin-right: 25px;
+    
+    line-height: 20px;
+}

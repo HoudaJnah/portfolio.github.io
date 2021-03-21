@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(img/body.jpg);
+}
+.navbar {
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 140px;
+    cursor: pointer;
+    
+}
+.logo:hover{
+    width: 160px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+.navbar ul li a:hover{
+        color: #1fbbe0 ;
+    font-size: 20px;
+    font-family: cursive;
+    
+}
+.content {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/soolk.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+    
+}
+.left-col {
+    margin-left: 8%;
+   
+     float: left;
+}
+.right-col{
+    
+   /* margin-right: 20%;
+   
+    display: flex;
+    align-items: center;*/
+    
+    margin-left: 20%;
+    margin-bottom: 8%;
+     margin-top: 100px;
+    margin-right: 4%;
+    float: right;
+}
+
+
+
+.right-col h1{
+    
+   padding-top: 50px
+    font-size: 40px;
+    color: white;
+    line-height: 50px;
+}
+.right-col h5{
+    
+ 
+    font-size: 20px;
+   color: #00bac5 ;
+    line-height: 20px;
+}
+.right-col h5:hover{
+    
+ 
+    font-size: 24px;
+     color: #fe20a3 ;
+    
+    line-height: 25px;
+}
+.listen{
+    display: flex;
+}
+.right-col p{
+  
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    margin-right: 25px;
+    
+    line-height: 20px;
+}
